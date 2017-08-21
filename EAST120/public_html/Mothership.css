@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 8, 2017, 10:02:39 PM
+    Author     : xaosthesaint
+*/
+
+
+
+body{
+    background-image: url("http://il2.picdn.net/shutterstock/videos/12914366/thumb/1.jpg");
+}
+
+div.logo{
+    background-image: url("http://il2.picdn.net/shutterstock/videos/12914366/thumb/1.jpg");
+    
+    
+   
+}
+
+ul {
+
+    margin: 0;
+    overflow: hidden;    
+    background-color: steelblue;
+    font-family: Helvetica;  
+    border-bottom-style: solid;
+    border-top-style: solid;
+
+}
+
+li {
+    padding: 0px 125px 0.5px 14px;
+    float: left;
+    color: steelblue;
+
+}
+
+div.nav{
+position: relative;
+color: steelblue;
+border-style: solid;
+border-color: black;
+
+
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 34px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+    background-image: url("");
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+div.logo{
+    padding: 10px 565px;
+
+}
+
+div.text{
+   text-align: center; 
+   
+}
+
+div.body {
+   
+   margin: auto;       
+}   
+
+
